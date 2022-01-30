@@ -1,0 +1,36 @@
+.boxes__section {
+    color: #fff;
+    padding: 60px 0;
+    background-color: #1c2237;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes__container {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes__container-card {
+    margin: 0 10px;
+    background: #fff;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.boxes__container-card h3 {
+    color: #1c2237;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.boxes__container-card:hover {
+    transform: scale(1.06);
+    transition: all 0.2s ease-out;
+}
